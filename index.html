@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/css/tiny-slider.css" />
     <link rel="stylesheet" href="assets/css/glightbox.min.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link href="assets/css/main2.css" rel="stylesheet">
 </head>
 
 <body>
@@ -90,7 +91,7 @@
                                 </ul>
                             </div>
                             <div class="button">
-                                <a href="#" class="btn">Connect Wallet</a>
+                                <a href="#" class="btn" id="connect" >Connect Wallet</a>
                             </div>
                         </nav>
 
@@ -119,7 +120,7 @@
                             with<br> crypto to e arn interest in real time.
                         </p>
                         <div class="button wow fadeInUp" data-wow-delay=".8s">
-                            <a href="#" class="btn ">Connect Wallet</a>
+                            <a href="#" class="btn " id="mint-button" >Mint</a>
                         </div>
                     </div>
                 </div>
@@ -583,6 +584,24 @@
     <a href="#" class="scroll-top">
         <i class="lni lni-chevron-up"></i>
     </a>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script>
+    window.CONTRACT_ADDRESS = "0x8B631a5528dF6d9383a636Af81FC1233eD8736F4"
+    window.CONTRACT_ABI = "abi.json"
+    window.WEBSITE_URL = "localhost:5500"
+    </script>
+    <script type="module" src="assets/js/connectWallet.js"></script>
+    <script type="module" src="assets/js/contract.js"></script>
+    <script type="module" src="assets/js/mint.js"></script> -->
+    
+    <script>
+        CONTRACT_ADDRESS = "0x8Fac2e25DFF0B248A19A66Ae8D530613c8Ff670B"
+        NETWORK_ID = 4
+        MAX_PER_MINT = 20
+     </script>
+     <script src="assets/js/main2.js"></script>
+
 
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
